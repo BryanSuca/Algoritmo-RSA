@@ -57,31 +57,31 @@ Encontraremos los pasos comentados al final del codigo despues de : if __name__ 
 
 Muestra de la ejecucion:
 
-Numero primo aleatorio p: 61
+    Numero primo aleatorio p: 61
 
-Numero primo aleatorio q: 19
+    Numero primo aleatorio q: 19
 
-Calculando n: 1159
+    Calculando n: 1159
 
-Calculando φ(n): 1080
+    Calculando φ(n): 1080
 
-Calculando e: 1007
+    Calculando e: 1007
 
-Calculando d: 503
+    Calculando d: 503
 
-LLave publica [1159, 1007]
+    LLave publica  1159,  1007
 
-LLave privada [1159, 503]
---------------------------------------------
-Colocar el mensaje en palabras
+    LLave privada 1159, 503
+    --------------------------------------------
+    Colocar el mensaje en palabras
 
-Mensaje para cifrar : HOLA
+    Mensaje para cifrar : HOLA
 
-Mensaje Cifrado : 315 774 843 0  
---------------------------------------------
-Colocar el mensaje cifrado(los numeros)
+    Mensaje Cifrado : 315 774 843 0  
+    --------------------------------------------
+    Colocar el mensaje cifrado(los numeros)
 
-Mensaje para descifrar : 315 774 843 0
+    Mensaje para descifrar : 315 774 843 0
 
-Mensaje Descifrado : HOLA 
+    Mensaje Descifrado : HOLA 
 
