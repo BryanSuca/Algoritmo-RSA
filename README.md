@@ -66,31 +66,20 @@ Encontraremos los pasos comentados al final del codigo despues de : if __name__ 
 Muestra de la ejecucion:
 
     Numero primo aleatorio p: 61
-
     Numero primo aleatorio q: 19
-
     Calculando n: 1159
-
     Calculando φ(n): 1080
-
     Calculando e: 1007
-
     Calculando d: 503
-
     LLave publica  1159,  1007
-
     LLave privada 1159, 503
     --------------------------------------------
     Colocar el mensaje en palabras
-
     Mensaje para cifrar : HOLA
-
     Mensaje Cifrado : 315 774 843 0  
     --------------------------------------------
     Colocar el mensaje cifrado(los numeros)
-
     Mensaje para descifrar : 315 774 843 0
-
     Mensaje Descifrado : HOLA 
 
 # Ejercicio 2:
@@ -99,30 +88,31 @@ Crear un sistema RSA-64 (de k = 64 bits)
 
 El programa funciona con 24 bits/2, tambien funciona para 32 bits pero el tiempo de ejecucion demora demasiado tiempo
 
-El programa muestra e,d,n y genera 3 colummnas con 10 valores aleatorios
+El programa muestra e,d,n y genera 3 colummnas con 10 mensajes aleatorios
 
 El programa funciona adecuadamente cifrando y descifrando
 
+
 Muestra de la ejecucion:
 
-    Numero primo aleatorio p: 3011
-    Numero primo aleatorio q: 1399
-    Calculando n: 4212389
-    Calculando φ(n): 4207980
-    Calculando e: 1657961
-    Calculando d: 2534261
-    LLave publica [4212389, 1657961]
-    LLave privada [4212389, 2534261]
+    Numero primo aleatorio p: 2969
+    Numero primo aleatorio q: 839
+    Calculando n: 2490991
+    Calculando φ(n): 2487184
+    Calculando e: 936349
+    Calculando d: 2119125
+    LLave publica [2490991, 936349]
+    LLave privada [2490991, 2119125]
     ------------------------------------------------------
     Mensaje |       Cifrar  |       Descifrar   
-    2610981 |       1333190 |       2610981
-    2711344 |       3360130 |       2711344
-    4939635 |       3559921 |       727246
-    8703859 |       2063187 |       279081
-    1886571 |       3574783 |       1886571
-    7355693 |       46343   |       3143304
-    1913568 |       193680  |       1913568
-    5021113 |       1512854 |       808724
-    3440138 |       349055  |       3440138
-    1790184 |       1860218 |       1790184
+    28822   |       1140062 |       28822
+    74601   |       2353311 |       74601
+    35904   |       815932  |       35904
+    72201   |       2376071 |       72201
+    23795   |       16088   |       23795
+    46773   |       1325458 |       46773
+    73800   |       1112599 |       73800
+    10098   |       805778  |       10098
+    44428   |       1563072 |       44428
+    70618   |       305169  |       70618
     ------------------------------------------------------
