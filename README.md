@@ -2,7 +2,7 @@
 
 Algebra Abstracta
 2022-1
-Permanente 2a
+Permanente 02b
 Alumno: Bryan Edward Suca Jaramillo
 ____________________________________________________________________________________________
 
