@@ -53,6 +53,14 @@ Encontraremos los pasos comentados al final del codigo despues de : if __name__ 
 6.	return {n,e,d}
 
     Realizado en el paso 6, encontramos el modulo n, la llave publica e y la llave privada d
+    
+ 7. Cifrar usando P(m) = me mod n = c
+  
+    Realizado en el paso 7, Creamos las funciones para cifrar un mensaje, letra por letra que lo convierte a digitos
+ 
+ 8. Descifrar usando S(c) = cd mod n = m.
+ 
+    Realizado en el paso 8, Creamos las funciones para descifrar digitos, y lo convierte a una palabra pero el codigo va descifrando letra por letra
 
 
 Muestra de la ejecucion:
@@ -85,3 +93,36 @@ Muestra de la ejecucion:
 
     Mensaje Descifrado : HOLA 
 
+# Ejercicio 2:
+
+Crear un sistema RSA-64 (de k = 64 bits)
+
+El programa funciona con 24 bits/2, tambien funciona para 32 bits pero el tiempo de ejecucion demora demasiado tiempo
+
+El programa muestra e,d,n y genera 3 colummnas con 10 valores aleatorios
+
+El programa funciona adecuadamente cifrando y descifrando
+
+Muestra de la ejecucion:
+
+    Numero primo aleatorio p: 3011
+    Numero primo aleatorio q: 1399
+    Calculando n: 4212389
+    Calculando φ(n): 4207980
+    Calculando e: 1657961
+    Calculando d: 2534261
+    LLave publica [4212389, 1657961]
+    LLave privada [4212389, 2534261]
+    ------------------------------------------------------
+    Mensaje |       Cifrar  |       Descifrar   
+    2610981 |       1333190 |       2610981
+    2711344 |       3360130 |       2711344
+    4939635 |       3559921 |       727246
+    8703859 |       2063187 |       279081
+    1886571 |       3574783 |       1886571
+    7355693 |       46343   |       3143304
+    1913568 |       193680  |       1913568
+    5021113 |       1512854 |       808724
+    3440138 |       349055  |       3440138
+    1790184 |       1860218 |       1790184
+    ------------------------------------------------------
