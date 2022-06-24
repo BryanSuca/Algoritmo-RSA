@@ -20,10 +20,15 @@ RSA KEY GENERATOR(k)
 1.	Generar dos primos p y q, tal que p 6= q. Cada uno de k/2 bits.
 
     Creamos las funciones en el ejercicio:
+    
     ○ exponenciacionModular
+   
     ○ MiillerRabin
+    
     ○ calcularPrimo
+    
     ○ randoms
+    
     Estas funciones nos ayudara a tener 2 numeros primos de k bits y diferentes
     
 2.	Calcular n = p × q
